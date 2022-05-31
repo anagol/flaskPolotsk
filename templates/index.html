@@ -1,0 +1,122 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+<div class="row row-cols-1 row-cols-md-5">
+  <a href="{{ url_for('history') }}">
+    <div class="col">
+      <div class="card h-100 card-one">
+        <img src="/static/img/history1.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title">История</h5>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <a href="{{ url_for('culture') }}">
+    <div class="col">
+      <div class="card h-100 card-one">
+        <img src="/static/img/culture.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Культура</h5>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <a href="{{ url_for('education') }}">
+    <div class="col">
+      <div class="card h-100 card-one">
+        <img src="/static/img/educ.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Образование</h5>
+        </div>
+      </div>
+    </div>
+    </a>
+
+    <a href="{{ url_for('transport') }}">
+    <div class="col">
+      <div class="card h-100 card-one">
+        <img src="/static/img/transport.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Транспорт</h5>
+        </div>
+      </div>
+    </div>
+    </a>
+
+    <a href="{{ url_for('postcard') }}">
+    <div class="col">
+      <div class="card h-100 card-one">
+          <img src="/static/img/soborpolotsk.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Полоцк на старых открытках</h5>
+          </div>
+        </div>
+      </div>
+  </div>
+  </a>
+
+  <a href="{{ url_for('food') }}">
+  <div class="row row-cols-1 row-cols-md-5">
+    <div class="col">
+      <div class="card h-100 card-one">
+        <img src="/static/img/food.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Питание</h5>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <a href="{{ url_for('shopping') }}">
+    <div class="col">
+      <div class="card h-100 card-one">
+        <img src="/static/img/shopping.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Торговля</h5>
+        </div>
+      </div>
+    </div>
+    </a>
+
+    <a href="{{ url_for('banks') }}">
+    <div class="col">
+      <div class="card h-100 card-one">
+        <img src="/static/img/banks.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Банки</h5>
+        </div>
+      </div>
+    </div>
+    </a>
+
+    <a href="{{ url_for('organization') }}">
+    <div class="col">
+      <div class="card h-100 card-one">
+        <img src="/static/img/gos.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Организации</h5>
+        </div>
+      </div>
+    </div>
+    </a>
+
+    <a href="{{ url_for('sport') }}">
+    <div class="col">
+      <div class="card h-100 card-one">
+          <img src="/static/img/sport.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Спорт</h5>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+</div>
+
+
+{% endblock %}
